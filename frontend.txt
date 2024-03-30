@@ -1,0 +1,26 @@
+-> Here we have first installed the concurrently so we can run two server with a single command
+we have made a both variable in the package.json/srcipt and write what commands we want to run      --> both function
+
+-> here we are using HOOKS in the name of useEffect in which we are can use some awesome stuff like useLocation from the react-router-dom
+
+-> Front end is a service provider which provides you with awesome icons and style which you can use
+To use it what you want to do is you have to add thier code to your index.html in script section and then you are ready to go
+
+-> context API is used to provide prop anywhere in our file without declaring it indiviusally
+the props will be provided which will be written NoteState and noteContext is nothing but a inner file which we don't want to know beacause it is very complex
+
+-> NoteState would contain all the API data and all the aoi related work would be done through it and it also contain functions related to database on API
+
+-> In react we cannot make changes in data dirctly if we do we will don't get result directly we have to referesh the page to get visual of the changes we have made
+
+-> preventDefault is used to prevent reloading of the page when some task is given 
+
+-> We can use destructuring in the props so we can use the objects in the props easily it is done in following ways : const {name,email,password} = credentials; here credentials is the props we have passed
+
+-> This is one of a kind code which is used to edit the note : 
+const onChange=(e)=>{
+      setNote({...note,[e.target.name]:e.target.value})
+    }
+-> Reducer is just like contextAPI which helps us store the state of application as it becomes difficult to use state in big applications
+
+-> to use redux we need to install redux react-redux redux-thunk

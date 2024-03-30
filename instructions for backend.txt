@@ -1,0 +1,13 @@
+1 -> We first deal with bacakend of our website
+
+2.0 -> we have made 3 new files inside backend : code for fetching the data , db , index
+2.0.1 -> index would consist all the nodejs,Mongo and expressJS.... it is actually main heart of our website (the code will remain same)
+2.0.2 -> db : it connects our website to mongoDB compass , the mongoURI is taken from URL in mongoDB 
+2.0.3 -> code for fetching data : this file is BS because we have changed this file completely to use in backend
+
+2.1 -> We have made 3 folders : routes , models , middleware
+2.1.1 -> middleware : consists of fetchuser.js which is used to verify the jwt token so this is actually used to verify AUTH TOKEN i.e. related to AUTH TOKEN
+2.1.2 -> models : are nothing jsut like the element that will come in the form it will consist of 2 parts User and Note
+2.1.3 -> routes contains 2 files notes and user and these are the main files which contains actual code for fetching up the data
+
+3 -> the dependencies you have downloaded can be sen in package.JSON
